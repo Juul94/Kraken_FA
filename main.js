@@ -84,3 +84,7 @@ document.addEventListener('keyup', e => {
 if(submitForm == true) {
     successAlert.style.display = "block";
 }
+
+if(successAlert.style.display == "block") {
+    submitForm = false;
+}
