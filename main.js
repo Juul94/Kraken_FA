@@ -1,7 +1,3 @@
-
-const form = document.querySelector(".signup-form");
-const feedback = document.querySelector(".feedback");
-
 const emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
 // At least 5 letters (?=.{5,})
